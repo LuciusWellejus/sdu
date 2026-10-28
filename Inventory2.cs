@@ -1,15 +1,3 @@
-// Extend the implementation to reflect this UML class diagram:
-// The GetInventoryValue must iterate through all Item objects in items, call GetPrice on each
-// of the objects, sum up the resulting values and return this value.
-// The PrintInventory method must print out a textual representation of all the objects in the
-// items array using Console.WriteLine. Use a loop of your choice to accomplish this.
-// AddItem and RemoveItem must add and remove objects to and from the items array.
-
-// Subtask 2
-// Move the Main method out into a Test class and update it in such a way that you add items of
-// both FoodItem and NonFoodItem to an Items array in an instance of Inventory.
-// Call the PrintInventory and GetInventoryValue methods to validate their functionality.
-
 // Exercise 16.1: Inventory
 // Subtask 1
 // To ensure that items are always instantiated as either FoodItem or NonFoodItem objects, you
@@ -31,8 +19,15 @@
 // Hint: The DateTime type in the .NET framework can be used to represent dates (and a time
 // of day).
 
+// ----------------------------------------------------------------------------------------------------
 
-// Subtask 1: Item er gjort abstract
+// Subtask 2: Oprettelse af interfacet IExpireable
+interface IExpireable 
+{ 
+    bool IsExpired(); 
+}
+
+// Subtask 1: Item er abstract
 public abstract class Item
 {
     public string Name;
