@@ -13,7 +13,7 @@
 // Call the PrintInventory and GetInventoryValue methods to validate their functionality.
 
 
-class Test
+class Method
 {
     public static void Main(String[] args)
     {

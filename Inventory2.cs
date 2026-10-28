@@ -32,8 +32,7 @@
 // of day).
 
 
-
-class Test
+class Method
 {
     public static void Main(String[] args)
     {
