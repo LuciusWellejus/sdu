@@ -21,14 +21,14 @@
 
 // ----------------------------------------------------------------------------------------------------
 
-// Subtask 2: Oprettelse af interfacet IExpireable
+// Subtask 2 & 3: Interfacet oprettes og implementeres i Item
 interface IExpireable 
 { 
     bool IsExpired(); 
 }
 
-// Subtask 1: Item er abstract
-public abstract class Item
+// Subtask 1 & 3: Item er abstract og implementerer IExpireable
+public abstract class Item : IExpireable
 {
     public string Name;
     public double Price;
@@ -46,6 +46,12 @@ public abstract class Item
     public double GetPrice()
     {
         return Price;
+    }
+
+    // Subtask 3: Default virtuel metode så alle nedarvede klasser har adgang
+    public virtual bool IsExpired()
+    {
+        return false;
     }
 }
 
