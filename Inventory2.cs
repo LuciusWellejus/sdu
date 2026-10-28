@@ -32,34 +32,56 @@
 // of day).
 
 
+// Subtask 1: Item er gjort abstract
+public abstract class Item
+{
+    public string Name;
+    public double Price;
+
+    public Item(string name, double price)
+    {
+        Name = name;
+        Price = price;
+    }
+    
+    public string GetName()
+    {
+        return Name;
+    }
+    public double GetPrice()
+    {
+        return Price;
+    }
+}
+
 class Method
 {
-    public static void Main(String[] args)
+    public static void Main(string[] args)
     {
         Inventory myInventory = new Inventory();
 
-        FoodItem bread = new FoodItem("bread", 15.00, new DateTime(2026, 10, 10));
-        FoodItem milk = new FoodItem("milk", 12.50, new DateTime(2026, 11, 05));
-        NonFoodItem screw = new NonFoodItem("screw", 5.00, ["jern"]);
-        NonFoodItem hammer = new NonFoodItem("hammer", 45.00, ["wood", "steel"]);
+        FoodItem bread = new FoodItem("bread", 15.00, new System.DateTime(2026, 10, 10));
+        FoodItem milk = new FoodItem("milk", 12.50, new System.DateTime(2026, 11, 05));
+        NonFoodItem screw = new NonFoodItem("screw", 5.00, new string[] { "jern" });
+        NonFoodItem hammer = new NonFoodItem("hammer", 45.00, new string[] { "wood", "steel" });
 
         myInventory.AddItem(bread);
         myInventory.AddItem(milk);
         myInventory.AddItem(screw);
         myInventory.AddItem(hammer);
 
-        Console.WriteLine("--- Show Inventory ---");
+        System.Console.WriteLine("--- Show Inventory ---");
         myInventory.PrintInventory();
 
-        Console.WriteLine($"Total Price: {myInventory.GetInventoryValue()}");
+        System.Console.WriteLine($"Total Price: {myInventory.GetInventoryValue()}");
 
-        Console.WriteLine("\n--- Removing milk ---");
+        System.Console.WriteLine("\n--- Removing milk ---");
         myInventory.RemoveItem(milk);
 
-        Console.WriteLine("\n--- Updated Inventory ---");
+        System.Console.WriteLine("\n--- Updated Inventory ---");
         myInventory.PrintInventory();
 
-        Console.WriteLine($"Total Price: {myInventory.GetInventoryValue()}");
+        System.Console.WriteLine($"Total Price: {myInventory.GetInventoryValue()}");
     }    
 }
 
@@ -69,13 +91,13 @@ public class Inventory
 
     public void AddItem(Item item)
     {
-        Array.Resize(ref items, items.Length + 1);
+        System.Array.Resize(ref items, items.Length + 1);
         items[items.Length - 1] = item;
     }
 
     public void RemoveItem(Item item)
     {
-        int index = Array.IndexOf(items, item);
+        int index = System.Array.IndexOf(items, item);
         if (index >= 0)
         {
             Item[] newItems = new Item[items.Length - 1];
@@ -104,32 +126,10 @@ public class Inventory
     {
         for (int i = 0; i < items.Length; i++)
         {
-            Console.WriteLine(items[i].ToString());
+            System.Console.WriteLine(items[i].ToString());
         }
     }
 }
-
-public class Item
-{
-    public string Name;
-    public double Price;
-
-    public Item(string name, double price)
-    {
-        Name = name;
-        Price = price;
-    }
-    
-    public string GetName()
-    {
-        return Name;
-    }
-    public double GetPrice()
-    {
-        return Price;
-    }
-}
-
 
 public class NonFoodItem : Item
 {
@@ -146,38 +146,26 @@ public class NonFoodItem : Item
 
     public override string ToString()
     {
-        return GetName() + " " + GetPrice() + " " + string.Join(", ", Materials); //NonFoodItem must return the name, price, and list of materials as a string.
+        return GetName() + " " + GetPrice() + " " + string.Join(", ", Materials);
     }
 }
 
 public class FoodItem : Item
 {
-    public DateTime ExpiresAt;
+    public System.DateTime ExpiresAt;
 
-    public FoodItem(string name, double price, DateTime expiresAt): base(name, price)
+    public FoodItem(string name, double price, System.DateTime expiresAt): base(name, price)
     {
         ExpiresAt = expiresAt;
     }
 
-    public DateTime GetExpiresAt()
+    public System.DateTime GetExpiresAt()
     {
         return ExpiresAt.Date;
     }
 
     public override string ToString()
     {
-        return GetName()+" "+ GetPrice()+" "+GetExpiresAt(); // FoodItem must return the name, price, and expiration date as a string.
-    }
-}
-
-public class Item
-{
-    public string Name;
-    public double Price;
-    
-    protected Item(string name, double price) 
-    {
-        Name = name;
-        Price = price;
+        return GetName()+" "+ GetPrice()+" "+GetExpiresAt();
     }
 }
