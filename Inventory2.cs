@@ -169,3 +169,15 @@ public class FoodItem : Item
         return GetName()+" "+ GetPrice()+" "+GetExpiresAt(); // FoodItem must return the name, price, and expiration date as a string.
     }
 }
+
+public class Item
+{
+    public string Name;
+    public double Price;
+    
+    protected Item(string name, double price) 
+    {
+        Name = name;
+        Price = price;
+    }
+}
