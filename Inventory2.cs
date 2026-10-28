@@ -165,6 +165,12 @@ public class FoodItem : Item
         return ExpiresAt.Date;
     }
 
+    // Subtask 4: Metoden overskrives til at bruge expiresAt-attributten
+    public override bool IsExpired()
+    {
+        return System.DateTime.Now > ExpiresAt;
+    }
+
     public override string ToString()
     {
         return GetName()+" "+ GetPrice()+" "+GetExpiresAt();
