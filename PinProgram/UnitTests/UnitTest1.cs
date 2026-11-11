@@ -19,7 +19,6 @@ public class UnitTest1
     [Test]
     public void TestExpend2()
     {
-    // Assert.AreEqual(4, Util.Add(1,2));
     Assert.That(pin.Expend(350), Is.False);
     Assert.Pass();
     }
@@ -27,7 +26,6 @@ public class UnitTest1
     [Test]
     public void TestExpend3()
     {
-    // Assert.AreEqual(4, Util.Add(1,2));
     Assert.That(pin.Expend(350), Is.False);
     Assert.Pass();
     }
@@ -35,7 +33,6 @@ public class UnitTest1
     [Test]
     public void TestExpend4()
     {
-    // Assert.AreEqual(4, Util.Add(1,2));
     Assert.That(pin.Expend(350), Is.False);
     Assert.Pass();
     }
@@ -43,7 +40,6 @@ public class UnitTest1
     [Test]
     public void TestExpend5()
     {
-    // Assert.AreEqual(4, Util.Add(1,2));
     Assert.That(pin.Expend(350), Is.False);
     Assert.That(pin.Expend(350), Is.False);
     Assert.That(pin.Expend(350), Is.False);
