@@ -1,3 +1,4 @@
+using PinProj;
 namespace UnitTests;
 
 public class Tests
@@ -14,7 +15,7 @@ public class Tests
     public void TestExpend()
     {
     // Assert.AreEqual(4, Util.Add(1,2));
-    Assert.That(pin.Expend(int 350), Is.True);
+    Assert.That(pin.Expend(350), Is.True);
     Assert.Pass();
     }
 }

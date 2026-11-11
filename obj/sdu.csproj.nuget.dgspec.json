@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kat/sdu/PinProgram/PinProj/PinProj.csproj": {}
+    "/Users/kat/sdu/sdu.csproj": {}
   },
   "projects": {
-    "/Users/kat/sdu/PinProgram/PinProj/PinProj.csproj": {
+    "/Users/kat/sdu/sdu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kat/sdu/PinProgram/PinProj/PinProj.csproj",
-        "projectName": "PinProj",
-        "projectPath": "/Users/kat/sdu/PinProgram/PinProj/PinProj.csproj",
+        "projectUniqueName": "/Users/kat/sdu/sdu.csproj",
+        "projectName": "sdu",
+        "projectPath": "/Users/kat/sdu/sdu.csproj",
         "packagesPath": "/Users/kat/.nuget/packages/",
-        "outputPath": "/Users/kat/sdu/PinProgram/PinProj/obj/",
+        "outputPath": "/Users/kat/sdu/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kat/.nuget/NuGet/NuGet.Config"
