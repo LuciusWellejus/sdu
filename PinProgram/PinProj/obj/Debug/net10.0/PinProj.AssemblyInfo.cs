@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PinProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+245185de1f91f697a007360c0c167f175b7a9ca4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6600838878002824fb2b96d0577b81fb75fabd5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PinProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PinProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
