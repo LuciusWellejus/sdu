@@ -1,0 +1,15 @@
+/Users/kat/sdu/PinProgram/PinProj/bin/Debug/net10.0/PinProj
+/Users/kat/sdu/PinProgram/PinProj/bin/Debug/net10.0/PinProj.deps.json
+/Users/kat/sdu/PinProgram/PinProj/bin/Debug/net10.0/PinProj.runtimeconfig.json
+/Users/kat/sdu/PinProgram/PinProj/bin/Debug/net10.0/PinProj.dll
+/Users/kat/sdu/PinProgram/PinProj/bin/Debug/net10.0/PinProj.pdb
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.AssemblyInfoInputs.cache
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.AssemblyInfo.cs
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.csproj.CoreCompileInputs.cache
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.sourcelink.json
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.dll
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/refint/PinProj.dll
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.pdb
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/PinProj.genruntimeconfig.cache
+/Users/kat/sdu/PinProgram/PinProj/obj/Debug/net10.0/ref/PinProj.dll
