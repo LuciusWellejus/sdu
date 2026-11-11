@@ -25,7 +25,6 @@
 // How would the testing strategy change if there was a random number generator in the picture
 // such that the probability that you would be asked to provide a PIN code was 20%?
 
-
 public class Pin
 {
     const int CRITICAL_AMOUNT = 350;
