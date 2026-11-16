@@ -1,0 +1,15 @@
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.AssemblyInfoInputs.cache
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.AssemblyInfo.cs
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.csproj.CoreCompileInputs.cache
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.sourcelink.json
+/Users/kat/sdu/Iventory3/bin/Debug/net10.0/Iventory3
+/Users/kat/sdu/Iventory3/bin/Debug/net10.0/Iventory3.deps.json
+/Users/kat/sdu/Iventory3/bin/Debug/net10.0/Iventory3.runtimeconfig.json
+/Users/kat/sdu/Iventory3/bin/Debug/net10.0/Iventory3.dll
+/Users/kat/sdu/Iventory3/bin/Debug/net10.0/Iventory3.pdb
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.dll
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/refint/Iventory3.dll
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.pdb
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/Iventory3.genruntimeconfig.cache
+/Users/kat/sdu/Iventory3/obj/Debug/net10.0/ref/Iventory3.dll
