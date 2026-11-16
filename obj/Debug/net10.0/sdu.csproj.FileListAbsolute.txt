@@ -1,0 +1,5 @@
+/Users/kat/sdu/obj/Debug/net10.0/sdu.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kat/sdu/obj/Debug/net10.0/sdu.AssemblyInfoInputs.cache
+/Users/kat/sdu/obj/Debug/net10.0/sdu.AssemblyInfo.cs
+/Users/kat/sdu/obj/Debug/net10.0/sdu.csproj.CoreCompileInputs.cache
+/Users/kat/sdu/obj/Debug/net10.0/sdu.sourcelink.json
