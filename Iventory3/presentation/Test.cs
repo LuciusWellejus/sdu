@@ -5,8 +5,7 @@ namespace Presentation
     {
     public static void Add ()
     {
-    Item i1 = new NonFoodItem("USB_Charger", 17.45,
-    new string[] { "plastic", "stuff" });
+    Item i1 = new NonFoodItem("USB_Charger", 17.45, new string[] { "plastic", "stuff" });
     Inventory inventory = new Inventory();
     inventory.Load("inventory.txt");
     inventory.AddItem(i1);
