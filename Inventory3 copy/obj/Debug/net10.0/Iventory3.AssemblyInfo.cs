@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iventory3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7d29dcba553f4dfaefd7601579b9b8ff71ece05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7513ac2d0b4d450a556224571db1a30f7cf3b480")]
 [assembly: System.Reflection.AssemblyProductAttribute("Iventory3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Iventory3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

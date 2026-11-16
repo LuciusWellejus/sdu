@@ -3,31 +3,31 @@ namespace Domain
     // implement the interface Interface.IDomain
     public class Domain : Interface.IDomain
     {
-        private string Filename;
-        private inventory Inventory;   
-    }
-    public Domain(string filename, inventory inventory)
-    {
-        this.filename = Filename;
-        this.inventory = ;
-    }
+        private string filename;
+        private Inventory inventory;
     
-    public void Load
-    {
+        public Domain(string filename)
+        {
+            this.filename = filename;
+            this.inventory = new Inventory();
+        }
         
+        public void Load()
+        {
+         inventory.Load(filename);
+        }
+        
+        public void Store()
+        {
+            inventory.Store(filename);
+        }
+        
+        public void AddNonFoodItem(string name, double price, string[] materials)
+        {
+            NonFoodItem item = new NonFoodItem(name, price, materials);
+            inventory.AddItem(item);
+        }
     }
-    
-    public void Store
-    {
-    }
-    
-    public void AddNonFoodItem
-    {
-        string name;
-        double price;
-        string[] materials;
-    }
-    
 }
 // only link between the Domain namespace and the Presentation namespace.
 // 
