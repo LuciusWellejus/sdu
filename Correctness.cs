@@ -30,7 +30,7 @@ class RandomTest
         int[] d = new int[a.Length];
         for (int i=0 ; i<d.Length ; i++)
         {
-            d[i] = b[i] - a[1];
+            d[i] = b[i] - a[i];
         }
         return d;
     }
