@@ -14,7 +14,7 @@ class Score
         {
             Console.Write("PASSED");
         }
-        if (points <= 50)
+        else
         {
             Console.Write("FAILED");
         }
