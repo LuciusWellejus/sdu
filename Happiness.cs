@@ -31,4 +31,28 @@ public class Happiness
         }
         return true;
     }
+
+    public static void Main(string[] args)
+    {
+        bool isHappy = true;
+    
+        for (int i = 0; i < ITEM_COUNT; i++)
+        {
+            if (!BuyItem(ITEM_PRICE) && !SellHouseIfNecessary())
+            {
+                isHappy = false;
+                break;
+            }
+        }
+    
+        // Console.WriteLine(isHappy? "Happy" : "Not happy");
+        if (isHappy)
+        {
+            Console.WriteLine("Happy");
+        }
+        else
+        {
+            Console.WriteLine("Not happy");
+        }
+    }
 }
