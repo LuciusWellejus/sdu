@@ -11,7 +11,7 @@ public class Happiness
     const int HOUSE_VALUE = 8000;
     static int account = 30000;
     static bool ownsHouse = true;
-    static bool AccountIsPositive ()
+    static bool AccountIsPositive()
     {
         return account>0;
     }
@@ -21,7 +21,7 @@ public class Happiness
         return AccountIsPositive();
     }
     // returns true if able to sell house or no sale necessary
-    static bool SellHouseIfNecessary ()
+    static bool SellHouseIfNecessary()
     {
         if (!AccountIsPositive())
         {

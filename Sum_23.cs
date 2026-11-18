@@ -1,7 +1,11 @@
 // Exercise 23.3: Sum
 // In the following program, there is a Sum method that is written to sum up the values of a series
-// of numbers. The program also has a Main method that defines two test cases and prints the
-// result of calling Sum on each of them. However, it seems that Sum is not written correctly. Can
+// of numbers.
+
+// The program also has a Main method that defines two test cases and prints the
+// result of calling Sum on each of them.
+
+// However, it seems that Sum is not written correctly. Can
 // you figure out what is wrong and fix the code?
 
 public class Adder
