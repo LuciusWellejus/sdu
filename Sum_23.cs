@@ -13,9 +13,9 @@ public class Adder
     public static int Sum (int[] numbers)
     {
         int result = 0;
-        for (int i=1 ; i<=numbers.Length ; i++)
+        for (int i=0 ; i<numbers.Length ; i++)
         {
-            result += i;
+            result += numbers[i];
         }
         return result;
     }
